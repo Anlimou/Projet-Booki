@@ -1,0 +1,354 @@
+/*GENERAL*/
+html,body{
+    font-family: Raleway;
+    padding-left: 55px; 
+}
+.FlexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.flexcolumncentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexcolumnaround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .flexcolumnbetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.text-gras{
+    font-weight: bold;
+}
+.back-gris {
+  background-color: #f2f2f2;
+}
+
+.FlexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+   
+.Th1 /*titre en gras*/ {
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+}
+
+/*titre simple*/
+.Th2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*en tete */
+header,nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1027px;
+    
+}
+
+header,nav{
+    justify-content:space-between
+}
+    
+
+
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 44px;  
+}
+
+/*bard en haut a faire */
+.Hébergement{
+    width: 113px;
+    height: 19px;
+    padding-top: 44px;
+    color:#0065FC ;
+    
+}
+
+.Activités {
+    padding-top: 44px;
+    width: 113px;
+    height: 19px;
+}
+
+.contentdiv {
+    gap: 67px;
+}
+
+.Th1 {
+    font-size: 22px;
+    padding-top: 63px;
+    width: 700px;
+    height: 26px;
+
+}
+
+/*section bar de recherche*/
+.Recherch-box {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+
+/*carré du map*/
+.icon-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 49px;
+    background-color: #F2F2F2 ;
+
+/*faire l'arondit de l'icon*/
+
+   border: 1px solid #F2F2F2;
+   border-radius: 15px 0px 0px 15px;
+}
+.fas {
+  width: 14px;
+  height: 18px;
+}
+/*bouton recherche*/
+.Search {
+    
+    border-radius: 0 14px 14px 0;
+    background-color: #0065fc;
+    color: #F2F2F2;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 17px;
+    cursor: pointer;
+    border: none;
+}
+.Recherch-bar {
+    padding: 0 0 0 20px;
+    height: 50px;
+    width: 220px;
+    border: none;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+
+  }
+
+  .Recherch-bar::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: 10px;
+}
+/*chercher une solution sur le center*/
+/*section filtre*/
+.filtre-boutton {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 40px;
+}
+.margin-fitre {
+
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.titre-filtre {
+    margin-left: 20px;
+}
+
+.filtre-text-icon {
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+
+}
+.filtres-icon {
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    background-color: #deebff;
+}
+.fitre-text {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 0;
+
+}
+/*chercher une solution sur le center*/
+
+/*INFO ICON*/
+.info{
+    display: flex;
+    align-items: center;
+}
+.icon-info {
+    width: 24px;
+    height: 24px;
+    margin-right:20px;
+    color: #0065FC;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+
+.Espace-info {
+    gap: 10px;
+}
+
+/*herbergement*/
+.SizeHeger {
+   flex: 2;
+   height: 650px;
+   margin-right: 50px;
+   border-radius: 10px;
+   margin-top: 40px;
+}
+
+
+
+.SizePopulaires {
+    flex: 1;
+    height: 650px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.text-hebergement {
+    margin-top: 42px;
+    margin-left: 40px;
+
+} 
+
+.Block1 {
+  margin-bottom: 10px;
+
+}
+
+.Block2{
+    margin-bottom: 10px;
+}
+
+.BlocHeberg {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.cardhebergement {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+
+
+.imgheberge-1 {
+    background-image: url("img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgheberge-2 {
+    background-image: url("img/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgheberge-3 {
+    background-image: url("img/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgheberge-4 {
+    background-image: url("img/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgheberge-5 {
+    background-image: url("img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgheberge-6 {
+    background-image: url("img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.affichePlus { 
+    margin-left: 42px;
+    
+}
+
+/*populaire*/
+
+.PopulaireChart {
+   padding-right: 20px;
+   margin-left: 20xp;
+}
+
+
+.imgPoPu1 {
+    background-image: url("img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 160px;
+    border-radius: 15px 15px 0 0
+}
+
+
+.text-populaires {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
