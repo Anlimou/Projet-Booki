@@ -4,15 +4,37 @@ html,body{
     padding-left: 55px; 
 }
 .FlexCenter {
-    display: flex;
+    display: flex ;
     justify-content: center;
     align-items: center;
     
 }
+.sectionHP{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flex-centre{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+
 .flex-between {
     display: flex;
     justify-content: space-between;
     align-items: center;}
+
+.flex-between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
 
 .flexcolumncentre {
     display: flex;
@@ -58,49 +80,78 @@ font-size: 22px;
 }
 
 /*en tete */
-header,nav {
+ nav{
+    height: 74px;
     display: flex;
-    flex-direction: row;
-    gap: 1027px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .contener-nav-bar1 :hover {
+       border-top: #0065FC 3px solid;
+ }
+
+ .contener-nav-bar1 {
+    display: flex;
+    width: 113px;
+    align-items: end;
+    justify-content:center ;
+ }
+
+#contener-nar {
+    gap:67px ;
+    width: 20%;
+    display: flex;
     
 }
 
-header,nav{
-    justify-content:space-between
-}
+.contener-nav-bar2 :hover{
+    border-top: #0065FC 3px solid;
     
+}
 
+.contener-nav-bar2 {
+    display: flex;
+    width: 113px;
+    align-items: end;
+    justify-content:center ;
+}
+
+.link {
+    padding-top: 46px;
+}
 
 
 .logo {
-    width: 61.09px;
-    height: 19px;
-    padding-top: 44px;  
+    width: 65px;
+    height: 20px;
+    padding-top: 46px;  
 }
 
-/*bard en haut a faire */
-.Hébergement{
+.T-Hébergement {
+    text-decoration: none;
     width: 113px;
     height: 19px;
-    padding-top: 44px;
     color:#0065FC ;
     
 }
 
-.Activités {
-    padding-top: 44px;
+.T-Activités {
+
+    text-decoration: none;
     width: 113px;
     height: 19px;
+    color: black;
 }
 
-.contentdiv {
-    gap: 67px;
-}
+/*fin de la nav barre */
+
 
 .Th1 {
     font-size: 22px;
     padding-top: 63px;
-    width: 700px;
+    font-weight: 700;
+    width: 575px;
     height: 26px;
 
 }
@@ -161,44 +212,45 @@ header,nav{
 }
 /*chercher une solution sur le center*/
 /*section filtre*/
-.filtre-boutton {
+
+.filtre-icons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+  }
+
+  .marg-filtre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .filtre {
     display: flex;
     align-items: center;
-    font-size: 18px;
-    gap: 40px;
-}
-.margin-fitre {
-
-    margin-top: auto;
-    margin-bottom: 50px;
-}
-
-.titre-filtre {
-    margin-left: 20px;
-}
-
-.filtre-text-icon {
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-    height: 50px;
-    width: 200px;
+  }
+  .marg-filtre-titre {
     margin-right: 20px;
-
-}
-.filtres-icon {
-    border-radius: 25px;
-    width: 50px;
+  }
+  .filtre-texte-icons {
+    border: 2px solid #f2f2f2;
     height: 50px;
-    color: #0065FC;
-    background-color: #deebff;
-}
-.fitre-text {
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+  
+
+
+.filtre-texte {
     height: 50px;
     padding-left: 20px;
+    font-weight: 700;
+    font-size: 17px;
     padding-right: 20px;
-    border-radius: 0 25px 0;
+    border-radius: 0 25px 25px 0;
+  }
 
-}
 /*chercher une solution sur le center*/
 
 /*INFO ICON*/
@@ -219,23 +271,23 @@ header,nav{
     gap: 10px;
 }
 
-/*herbergement*/
+/*herbergement à marseille */
 .SizeHeger {
-   flex: 2;
-   height: 650px;
-   margin-right: 50px;
-   border-radius: 10px;
-   margin-top: 40px;
+   width: 880px;
+   height: 625px;
+   border-radius: 20px;
+   margin-top: 39px;
+   background-color:#F2F2F2 ;
 }
 
 
 
 .SizePopulaires {
-    flex: 1;
-    height: 650px;
-    margin-right: 50px;
-    border-radius: 10px;
-    margin-top: 40px;
+    width: 420px;
+    height: 625px;
+    border-radius: 20px;
+    margin-top: 39px;
+    background-color:#F2F2F2 ;
 }
 .text-hebergement {
     margin-top: 42px;
@@ -244,12 +296,12 @@ header,nav{
 } 
 
 .Block1 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
 }
 
 .Block2{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .BlocHeberg {
@@ -329,26 +381,157 @@ header,nav{
 
 /*populaire*/
 
+.BlocPopulaire {
+
+    padding-right: 0px;
+    padding-left:
+}
+
+
 .PopulaireChart {
-   padding-right: 20px;
-   margin-left: 20xp;
+    margin-top: 30px;
+    margin-left: 41px;
+   
 }
-
-
-.imgPoPu1 {
-    background-image: url("img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 30%;
-    height: 160px;
-    border-radius: 15px 15px 0 0
-}
-
 
 .text-populaires {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .Populairtext{
+    margin-top: 42px;
+    margin-left: 41px;
+ }
+/*modifer la couleur */
+.Icon-chart  {
+    width: 18px;
+    height: 15.75px;
+    margin-right:20px;
+    color: #0065FC;
+    border-radius: 25px;
+}
+.marging-cardP {
+    margin-left: 41px;
+    margin-bottom: 33px;
+ }
+
+.cardPooulaire {
+    width:343px;
+    height: 144px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+ /* COULEUR */
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+.Padding-cardP {
+  padding-left: 15px;
+}
+.Icon-star {
+    width: 12px;
+    height: 12px;
+    color: #0065FC;
+}
+  .Icon-starB{
+    width: 12px;
+    height: 12px;
+    color:#F2F2F2;
+    padding-bottom: 12px;
+
+  }
+
+.imgPoPu1 {
+    background-image: url("img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 137px;
+    height: 114px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.imgPoPu2 {
+    background-image: url("img/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 137px;
+    height: 114px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.imgPoPu3 {
+    background-image: url("img/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 137px;
+    height: 114px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px; 
+}
+  
+/*section activités */
+
+.h2-generalAct {
+
+    margin-top: 60px;
+}
+
+.FlexblockActivité {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.block-activités {
+    object-fit: cover;
+    width: 302px;
+    height: 444.51px;
+    margin-right: 50px;
+    border-radius: 20px 20px 0px 0px;
+
+ }
+
+ .rectangleActivité {
+    width: 302px;
+    height: 56px;
+    padding-top: 389px;
+    bottom: -0.49px;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: #FFFFFF;
+ }
+
+ 
+ .Padding-rec-texte {
+    padding-left: 19px;
+ }
+ .padding-rectangle {
+    padding-top: 389px;
+ }
+
+ /*footer*/
+
+ .rectangle-footer {
+    width: 1339px;
+    height: 225px;
+    left: 3.68%;
+    right: 3.33%;
+    margin-right: 53px;
+    bottom: -10.84px;
+    background-color: #F2F2F2;
+ }
+
+.block-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:45px ;
+    padding-right: 70px;
+}

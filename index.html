@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +15,20 @@
     <!--section en tete-->
     <header>
        
-        <nav class="navbar">
-            <a href="#" id="logo"><img src="img/Booki.png" alt="logo booki" class="logo"></a>
+        <nav class="">
+            <a href="#" id="logo">
+                <img src="img/Booki.png" alt="logo booki" class="logo">
+            </a>
              <!--logo booki-->
-            <div class="FlexCenter contentdiv" >
-                <div class="Hébergement">Hébergement</div>
-                <div class="Activités"> Activités </div>
+            <div id = "contener-nar">
+                <div class= contener-nav-bar1>
+                    <a href= "Hébergement" class="T-Hébergement link ">Hébergement</a>
+                </div>
+               <div class= contener-nav-bar2> 
+                  <a  href ="Activités" class="T-Activités link"> Activités </a>
+               </div>
             </div>
+    
             </nav>
 
     </header>
@@ -38,15 +45,36 @@
                 <input type="text" placeholder="Marseille, France" class="Recherch-bar">
                 <button class=" Search">Rechercher</button>
             </div>
-           
-            <div class="filtre-boutton margin-fitre ">
-                
-                    <div class="titre-filtre"><h3>Filtres</h3></div>
-                    <div class=" filtre-text-icon "> <i class="fa-solid fa-money-bill-wave filtres-icon FlexCenter"></i><div class="fitre-text FlexCenter">Économique</div></div>
-                    <div class=" filtre-text-icon"> <i class="fa-solid fa-child filtres-icon FlexCenter"></i> <div class="fitre-text fl">Familial</div></div>
-                    <div class=" filtre-text-icon "><i class="fa-sharp fa-solid fa-heart filtres-icon FlexCenter"></i><div class="fitre-text">Romantique</div></div>
-                    <div class=" filtre-text-icon "><i class="fa-solid fa-dog filtres-icon FlexCenter"></i> <div class="fitre-text">Animaux autorisés</div></div>
+           <!--filtre-->
+           <div class="mobile-filtre-wrap filtre marg-filtre">
+            <div class="marg-filtre-titre"><h3>Filtres</h3></div>
+            <!-- rajoute 2 div flex-around pour separer en mobile -->
+            <!-- div1 -->
+            <div class="flex-around">
+              <div class="mobile-economiques flex-between filtre-texte-icons">
+                <i
+                  class="fas fa-money-bill-wave fa-lg filtre-icons flex-centre"
+                ></i>
+                <div class="filtre-texte flex-centre">Economiques</div>
+              </div>
+              <div class="mobile-familiales flex-between filtre-texte-icons">
+                <i class="fas fa-child fa-lg filtre-icons flex-centre"></i>
+                <div class="filtre-texte flex-centre">Familiales</div>
+              </div>
             </div>
+            <!-- div2 -->
+            <div class="mobile-filtre-wrap flex-around">
+              <div class="flex-between filtre-texte-icons">
+                <i class="fas fa-heart fa-lg filtre-icons flex-centre"></i>
+                <div class="filtre-texte flex-centre">Romantiques</div>
+              </div>
+              <div class="flex-between filtre-texte-icons">
+                <i class="fas fa-dog fa-lg filtre-icons flex-centre"></i>
+                <div class="filtre-texte flex-centre">Animaux autorisés</div>
+              </div>
+            </div>
+          </div>
+
             <div class="info ">
                 <div class="icon-info  FlexCenter"> <i class="fa-sx fa-solid fa-info"></i>   </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -55,8 +83,8 @@
         </section> 
     </main>
 
-    <section class="FlexAround">
-        <div class="flexcolumnaround SizeHeger back-gris BlocHeberg">
+    <section class="sectionHP">
+        <div class="flexcolumnaround SizeHeger  BlocHeberg">
           <h3 class="text-hebergement"> Hébergements à Marseille</h3> 
             <!--Block1-->
             <!--reevinier bien centre les elements dans les carde-->
@@ -67,7 +95,13 @@
                 <div>
                     <h3>Auberge de la Cannebière</h3>
                     <p>Nuit à partir de 25€</p>
-                    <div>Etoile</div>
+                    <div> <div class=""> 
+                        <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-starB fa-solid fa-star"></i>
+                    </div></div>
                 </div>
               </div>
               <!--card 2-->
@@ -76,7 +110,13 @@
                 <div>
                     <h3>Hôtel du port</h3>
                     <p>Nuit à partir de 52€</p>
-                    <div>Etoile</div>
+                    <div> <div class=""> 
+                        <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-starB fa-solid fa-star"></i>
+                    </div></div>
                 </div>
               </div>
              <!--card 3-->
@@ -85,7 +125,13 @@
                 <div>
                     <h3>Hôtel Les mouettes</h3>
                     <p>Nuit à partir de 76€</p>
-                    <div>Etoile</div>
+                    <div> <div class=""> 
+                        <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-star fa-solid fa-star"></i>
+                        <i class=" Icon-starB fa-solid fa-star"></i>
+                    </div></div>
                 </div>
               </div>
              
@@ -100,7 +146,13 @@
                <div>
                    <h3>Hôtel de la mer</h3>
                    <p>Nuit à partir de 46€</p>
-                   <div>Etoile</div>
+                   <div> <div class=""> 
+                    <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-starB fa-solid fa-star"></i>
+                </div></div>
                </div>
              </div>
              <!--card 5-->
@@ -109,7 +161,13 @@
                <div>
                    <h3>Auberge Le Panier</h3>
                    <p>Nuit à partir de 23€</p>
-                   <div>Etoile</div>
+                   <div> <div class=""> 
+                    <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-starB fa-solid fa-star"></i>
+                </div></div>
                </div>
              </div>
             <!--card 6-->
@@ -118,7 +176,13 @@
                <div>
                    <h3>Hôtel chez Amina</h3>
                    <p>Nuit à partir de 96€</p>
-                   <div>Etoile</div>
+                   <div> <div class=""> 
+                    <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-star fa-solid fa-star"></i>
+                    <i class=" Icon-starB fa-solid fa-star"></i>
+                </div></div>
                </div>
              </div>
             
@@ -127,30 +191,117 @@
           <p class="text-gras affichePlus">Afficher plus </p>
         </div>
          
-        <div class="SizePopulaires back-gris ">
+        <div class="SizePopulaires BlocPopulaire  ">
             <!--texte à retravailler-->
-              <div class="text-populaires  ">
-                 <h3 class="text-gras">Les plus Populaires</h3>
-                <div class=""> <i class="fa-solid fa-chart-line"></i> 
-                </div>
 
-                <div>
-                    <div><div class="imgPoPu1"></div></div>
-                    <div>
-                        <h3>Hôtel Le soleil du matin </h3>
-                        <P> Nuit à partir de 128€</P>
-                    </div>
-                    <div></div>
-               </div>  
-                    
+                <div class="text-populaires FlexCenter ">
+
+                     <h3 class="text-gras Populairtext PopulaireChart">Les plus Populaires</h3>
+                     <div class="PopulaireChart"> <i class="fa-solid fa-chart-line Icon-chart  "></i> </div>
+                
                 </div>
-        </div>
+                <!--cardP2-->
+                <div class="cardPooulaire  marging-cardP FlexCenter ">
+                       <div class="imgPoPu1 "> </div> 
+                       <div class="Padding-cardP">  <h3 > Hotel Le soleil du matin </h3>
+                            <p> Nuit à partir de 128€  </p>
+                             <div class=""> 
+                                  <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
+                                  <i class=" Icon-star fa-solid fa-star"></i>
+                                  <i class=" Icon-star fa-solid fa-star"></i>
+                                  <i class=" Icon-star fa-solid fa-star"></i>
+                                 <i class=" Icon-starB fa-solid fa-star"></i>
+                             </div>
+                      </div>
             
+                 </div>
+         <!--cardP2-->
+                 <div class="cardPooulaire marging-cardP FlexCenter ">
+                    <div class="imgPoPu2 "> </div> 
+                    <div class="Padding-cardP">  <h3 > Hotel Le soleil du matin </h3>
+                         <p> Nuit à partir de 128€  </p>
+                          <div class=""> 
+                               <i class=" Icon-star  fa-solid fa-star"></i>
+                               <i class=" Icon-star fa-solid fa-star"></i>
+                               <i class=" Icon-star fa-solid fa-star"></i>
+                               <i class=" Icon-star fa-solid fa-star"></i>
+                              <i class=" Icon-starB fa-solid fa-star"></i>
+                          </div>
+                   </div>
+         
+              </div>
+              <!--cardP3-->
+              <div class="cardPooulaire marging-cardP FlexCenter ">
+                <div class="imgPoPu3 "> </div> 
+                <div class="Padding-cardP">  <h3  > Hotel Le soleil du matin </h3>
+                     <p> Nuit à partir de 128€  </p>
+                      <div class=""> 
+                           <i class=" Icon-star fa-solid fa-star"></i>
+                           <i class=" Icon-star fa-solid fa-star"></i>
+                           <i class=" Icon-star fa-solid fa-star"></i>
+                           <i class=" Icon-star fa-solid fa-star"></i>
+                          <i class=" Icon-starB fa-solid fa-star"></i>
+                      </div>
+               </div>
+     
+          </div>
+
         </div>
     </section>
-     
+
+    <!--section activités-->
+<section>
+        <!--premier card Activité-->
+        <h2 class="h2-generalAct">Activités à Marseille</h2>
+        <div class="FlexblockActivité ">
+           <div class="  ">
+            <img class ="block-activités" src="img/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Activité">
+             <div class=" "><h3 class="Padding-rec-texte">Vieux Port</h3></div>
+          </div>
+
+          <div class="  ">
+            <img class ="block-activités" src="img/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Activité">
+             <div class=" "><h3 class="Padding-rec-texte">Vieux Port</h3></div>
+          </div>
+        
+          <div class="  ">
+            <img class ="block-activités" src="img/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Activité">
+             <div class=" "><h3 class="Padding-rec-texte">Vieux Port</h3></div>
+          </div>
+
+          <div class="  ">
+            <img class ="block-activités" src="img/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Activité">
+             <div class=" "><h3 class="Padding-rec-texte">Vieux Port</h3></div>
+          </div>
+
+        </div>
    
-    
+</section>  
+
+<footer class=" block-text rectangle-footer">
+    <div>
+        <h3>A propos </h3>
+        <p>Fonctionement du site</p>
+        <p>Conditions générales</p>
+        <p>Données et confidantialité</p>
+
+    </div>
+    <div>
+        <h3>Nos hébergement </h3>
+        <p>Charte qualité</p>
+        <p>Proposer votre hotel </p>
+        
+
+    </div>
+    <div>
+        <h3> Assistance </h3>
+        <p>Centre d'aide</p>
+        <p>Nous contacter</p>
+      
+
+    </div>
+
+</footer>
 
 </body>
-</html>
+</htm
