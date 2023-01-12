@@ -469,10 +469,32 @@ font-size: 22px;
 }
 
  .Populairtext{
-    margin-top: 42px;
     margin-left: 41px;
  }
-/*modifer la couleur */
+
+ .card-text-popu {
+    margin-top: -18px;
+}
+.card-etoile {
+    margin-top: 55px;
+}
+
+
+.card-text-popul {
+    margin-top: -17px; 
+}
+
+.card-texte {
+ margin-top: -21px;
+}
+
+
+.card-etoil {
+    margin-top: 68px;
+}
+
+
+
 .Icon-chart  {
     width: 18px;
     height: 15.75px;
