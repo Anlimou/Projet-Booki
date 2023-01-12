@@ -229,7 +229,7 @@ font-size: 22px;
     color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 700;
-    text-align: 10px;
+    text-align: center;
 }
 
  .desktopnone {
@@ -683,11 +683,11 @@ border-radius: 20px;
 
   .contener-nav-bar1 {
     border-top: none;
-    padding-top: none;
+    
   }
   .contener-nav-bar2 {
     border-top: none;
-    padding-top: none;
+    
   }  
   .contener-nav-bar1 :hover {
     border-top:none;
@@ -853,7 +853,6 @@ border-radius: 20px;
         border: 2px solid #f2f2f2;
         height: 50px;
         width: 150px;
-        margin:none;
 
       }
 
@@ -894,10 +893,7 @@ border-radius: 20px;
         width: 375px;
     }
 
-    .cardPooulaire {
-        width: 269px;
-        height: 144px;
-    }
+  
 
     .BlocHeberg {
         height: 100%;
@@ -935,6 +931,41 @@ border-radius: 20px;
         margin-left: 20px;
 
      }
+
+     .cardPooulaire {
+        padding-left: 13px;
+        width: 269px;
+        height: 144px;
+    }
+
+        
+    .imgPoPu1 {
+        margin-left: -13px;
+    
+    }
+    .imgPoPu2 {
+        margin-left: -13px;
+    
+    }
+
+    .imgPoPu3 {
+        margin-left: -35px;
+    
+    }
+    .marging-cardP {
+        margin-left: 40px;
+        margin-bottom: 33px;
+    }
+
+    .Padding-cardP {
+        padding-left: 5px;
+    }
+        
+
+
+
+
+
      /*activité*/
 
       .FlexblockActivité {
@@ -1093,7 +1124,6 @@ border-radius: 20px;
         flex-wrap: nowrap;
         justify-content: space-between;
         margin-top: -226px;
-        align-items: none;
     }
 
     /*card populaire */
