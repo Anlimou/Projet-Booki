@@ -581,6 +581,11 @@ border-radius: 20px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px; 
 }
+
+.ligneespace{
+    display: none;
+}
+
   
 /*section activités */
 
@@ -1107,7 +1112,7 @@ br{
 
     .sectionHP {
         flex-direction: column;
-        width: 100%;
+        width: 104%;
 
     }
     .BlocHeberg {
@@ -1129,29 +1134,26 @@ br{
     .SizePopulaires {
         width: 810px;
         height: 300px;
-        padding-right: 35px;
+        padding-right: 45px;
     }
 
-    .Populairtext {
-        margin-top: 42px;
-        margin-left: 41px;
-    }
+   
     .BloqueWrap {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         margin-top: 100px;
-        margin-left: -800px;
+        margin-left: -832px;
     }
 
     .cardPooulaire {
-        width: 236px;
+        width: 260px;
         height: 144px;
        
     }
     
     .marging-cardP{
-        margin-left: 28px;
+        margin-right: -16px;
         margin-bottom: 21px;
     }
     .text-populaires {
@@ -1164,30 +1166,63 @@ br{
 
     /*card populaire */
 
+    .hombrePopulaire {
+        width: 253px !important;
+    }
+
     .Padding-cardP {
-        padding-left: 8px;
+        padding-left: 2px;
     }
     .imgPoPu1{
         width: 35% !important;
         height: 134px;
+    }
+    .imgPoPu2{
+        width: 90px;
     }
    
     .imgPoPu3{
         margin-left: -2px;
     }
 
+   
+    
+    
+    .cardPooulaire {
+        width: 263px;
+        height: 144px;
+    }
+    
+
+    
+    
+    .card-etoil {
+        margin-top: 55px;
+    }
+    
+    
+    .card-text-popul {
+        margin-top: -15px;
+    }
+    
     .card-text-popu {
-        margin-top: 4px;
+        margin-top: -20px;
     }
-
-    .card-texte {
-        margin-top: -19px;
-    }
-
+    
     .card-etoile {
-        margin-top: 30px;
+        margin-top: 35px;
     }
 
+    .card-text-popu1 {
+        margin-top: -20px;
+    }
+    .card-etoile1 {
+        margin-top: 52px;
+    }
+
+    .ligneespace{
+        display: block;
+    }
     
 
 
