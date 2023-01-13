@@ -388,7 +388,7 @@ font-size: 22px;
 
 
 .imgheberge-1 {
-    background-image: url("img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("img/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -583,6 +583,11 @@ border-radius: 20px;
 }
   
 /*section activités */
+
+
+br{
+    display: none;
+}
 
 .h2-generalAct {
 
@@ -935,9 +940,13 @@ border-radius: 20px;
         height: 100%;
         background-color:white ;
      }
-     .text-hebergement,.text-gras  {
-        margin-left: 41px;
+     .text-hebergement {
+        margin-left: 5px;
      }
+
+     .textafficher {
+        display: none;
+    }
 
      .imgheberge-1 {
         width: 330px;
@@ -990,6 +999,11 @@ border-radius: 20px;
 
      /*activité*/
 
+     br{
+        display: block;
+    }
+    
+
       .FlexblockActivité {
         display: flex;
         flex-direction: column;
@@ -1010,7 +1024,7 @@ border-radius: 20px;
       /*footer*/
 
       .rectangle-footer {
-        width: 377px;
+        width: 257px;
         height: 100%;
         margin-top: 80px;
     }
