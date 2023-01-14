@@ -875,7 +875,7 @@ br{
         font-weight: 700;
         font-size: 11px;
         height: 13px;
-        padding-right:41px;
+        padding-right:18px;
         
       }
 
@@ -884,9 +884,9 @@ br{
       .filtre-texte-icons {
         border: 2px solid #f2f2f2;
         height: 40px;
-        width: 140px;
-
-      }
+        width: 150px;
+        margin-right: 12px;
+        }
 
       .filtre-icons {
         width: 52px;
@@ -902,9 +902,15 @@ br{
       .marginfiltre-mobile {
         padding-bottom:17px ;
       }
-      .texte-animaux{
-        width: 40%;
+
+      .texte-familial {
+        width: 100%;
       }
+      
+      .texte-animaux {
+        width: 100%;
+        white-space: nowrap;
+    }
       
     /*info*/
 
