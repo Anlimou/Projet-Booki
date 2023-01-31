@@ -1,12 +1,15 @@
 /*GENERAL*/
-html{
-    max-width: 1440px;
-    margin-left: 70px;
-}
-
+html,
 body{
     font-family: Raleway;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 1rem;
     
+}
+
+ body,main { 
+    overflow-x: hidden;
 }
 
 .FlexCenter {
@@ -85,7 +88,7 @@ font-size: 22px;
 /*en tete */
 nav { 
     display: flex;
-    /*gap: 1004px; creér une balise pour le gap*/
+    justify-content: space-between;
 }
 
 
@@ -115,7 +118,7 @@ nav {
 
     width: 20%;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     
 }
 
@@ -159,7 +162,6 @@ nav {
 
 .Th1 {
     font-size: 22px;
-    padding-top: 63px;
     font-weight: 700;
     width: 575px;
     height: 26px;
@@ -693,21 +695,477 @@ br{
   }
 
   
-@media screen and (max-width:1400px) {
- 
+  @media screen and (min-width:320px ) {
+
+     body{
+        margin: 0;
+     }
+    
+    
+    .Th1 {
+        font-size: clamp(22px, 4vw, 35px);
+        margin: 30px 0;
+        font-weight: 700;
+        width: 100%;
+        height: 26px;
+    }
+    
+    nav {
+    
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        }
+        
+        
+    .logo { 
+        margin-left: 157px;
+        margin-right: 157px; 
+    }
+    
+    #contener-na {
+        width: 100%;
+        gap: 0%;
+        
+    }
+    
+    .T-Hébergement {
+    margin-left: 30px; 
+    }
+    .T-Activités{
+    padding-left: 65px;
+    }
+    
+    
+    .size-lien-mobile {
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 23px !important;
+    }
+    
+    .size-lien-mobile:hover {
+    
+    border-bottom: 3px solid #0065fc;
+    }
+    
+    .contener-nav-bar1 {
+    border-top: none;
+    
+    }
+    .contener-nav-bar2 {
+    border-top: none;
+    
+    }  
+    .contener-nav-bar1 :hover {
+    border-top:none;
+    }
+    
+    .contener-nav-bar1 {
+    display: flex;
+    justify-content:center ;
+    }
+    
+    #contener-na {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .contener-nav-bar2:hover {
+    border-top: none;
+    
+    }
+    
+    .contener-nav-bar2 {
+    display: flex;
+    justify-content:center ;
+    }
+    
+    
+    
+    .T-Hébergement:hover  {
+    color: #0065FC;
+    
+    }
+    
+    
+    
+    .T-Activités:hover { 
+    color:#0065FC;
+    }
+
+    /* bar de navigation*/
+
+    .Recherch-box {
+
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 49px;
+    margin-left:5px;
+    margin-right: 118px;
+    margin-top: 18px;
+    margin-bottom: 35px;
+    }
+    
+    .icon-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 49px;
+    background-color: #F2F2F2 ;
+    }
+    
+    .Recherch-bar {
+    padding: 0 0 0 20px;
+    height: 49px;
+    width: 50%;
+    border: none;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+    
+    }
+    
+    .mobilenone {
+    display: none;
+    }
+    
+    .desktopnone{
+    display: block;
+    }
+    
+    .Search {
+    
+    border-radius: 0 14px 14px 0;
+    background-color: #0065fc;
+    color: #F2F2F2;
+    width: 10%;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 17px;
+    cursor: pointer;
+    border: none;
+    }
+
+    .mobile-filtres {
+        flex-direction: column;
+        align-items: flex-start;
+        }
+    .wrap-mobile {
+    flex-wrap: wrap;
+    }
+    
+    .filtre-texte {
+    font-weight: 700;
+    font-size: 11px;
+    height: 13px;
+    padding-right:18px;
+    
+    }
+    
+    
+    
+    .filtre-texte-icons {
+    border: 2px solid #f2f2f2;
+    height: 40px;
+    width: 150px;
+    margin-right: 12px;
+    }
+    
+    .filtre-icons {
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    }
+    
+    .margin-filtre-mobile {
+    padding-left: 10px;
+    width: 100%;
+    
+    
+    }
+    .marginfiltre-mobile {
+    padding-bottom:17px ;
+    }
+    
+    .marg-filtre-titre {
+        width: 100%;
+        margin-left: 12px;
+    }
+    
+    .marginfiltre-mobile {
+        width: 100%;
+        padding-top: 0px;
+    }
+    
+    .texte-familial {
+    width: 100%;
+    }
+    
+    .texte-animaux {
+    width: 100%;
+    white-space: nowrap;
+    }
+
+    .sectionHP {
+        flex-direction: column-reverse;
+        width: 100%;
+        }
+        
+    .BlocPopulaire {
+    flex: none;
+    height: 100%;
+    width: 100%;
+    }
+    
+    
+    
+    .BlocHeberg {
+    height: 100%;
+    }
+    
+    .Block1 {
+    flex-direction: column;
+    }
+    .Block2 {
+    flex-direction: column;
+    
+    }
+    
+    .SizeHeger {
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:white ;
+    }
+    .text-hebergement {
+    margin-left: 5px;
+    }
+    
+    .textafficher {
+    display: none;
+    }
+    
+    .imgheberge-1 {
+    width: 100%;
+    }
+    
+    
+    .cardhebergement {
+    width: 90%;
+    box-shadow: 0px 0px 7px 6px #e0e0e0;
+    border-radius: 20px;
+    }
+
+    .h2-generalAct {
+    margin-left: 20px;
+    
+    }
+    
+    .cardPooulaire {
+
+       width: 100%;
+        height: 144px;
+        padding-left: 0px;
+        display: flex;
+    
+    }
+    
+    .imagepro {
+        margin: 0 !important;
+        width: clamp(120px,4vw,200px) !important;
+        height: 134px ! important;
+    }
+    
+    .marging-cardP {
+    margin-left: 6px;
+    margin-bottom: 33px;
+    }
+    
+    .Padding-cardP {
+    padding-left: 5px;
+    }
+    
+    .PopulaireChart {
+        margin-top: 25px;
+    
+    }
+
+    .FlexblockActivité {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+    }
 
 
-}
+    .h2-generalAct {
+        margin-left: 20px;
+        width: 40%;
+    }
+    
+    .hombreActivite {
+        box-shadow: 0px 0px 5px 5px #e0e0e0;
+        border-radius: 20px;
+        width: 90%;
+        margin-top: 24px;
+    }
+    .block-activités {
+        width: 100%;
+        height: 190px;
+    }
+
+
+    
+        /*footer*/
+
+    .rectangle-footer {
+    width: 100% ;
+    height: 501px;
+    padding-right: 0;
+    margin-top: 80px;
+    }
+    
+    .block-text {
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 33px;
+    padding-bottom: 80 px;
+    padding-right: 0;
+    }
+    
+    
+    .footer-texte-padding1 {
+    padding-top: 40px;
+    padding-bottom: 51px;
+    
+    }
+
     
 
+    
+    
+    
+    
+    
+  }
+ 
+ /*  
+@media screen and (max-width:768px)  {
 
+    html,body{
+    margin: 0%;
+    }
+    
+    main {
+     width: 100%;
+    }
+    
+    
+    nav {
+    
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    
+    .logo { 
+        margin-left: 157px;
+        margin-right: 157px; 
+    }
+    
+    #contener-na {
+        width: 100%;
+        gap: 0%;
+      
+    }
+    
+    .T-Hébergement {
+    margin-left: 30px; 
+    }
+    .T-Activités{
+    padding-left: 65px;
+    }
+    
+    
+    .size-lien-mobile {
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 23px !important;
+    }
+    
+    .size-lien-mobile:hover {
+    
+    border-bottom: 3px solid #0065fc;
+    }
+    
+    .contener-nav-bar1 {
+    border-top: none;
+    
+    }
+    .contener-nav-bar2 {
+    border-top: none;
+    
+    }  
+    .contener-nav-bar1 :hover {
+    border-top:none;
+    }
+    
+    .contener-nav-bar1 {
+    display: flex;
+    justify-content:center ;
+    }
+    
+    #contener-na {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .contener-nav-bar2:hover {
+    border-top: none;
+    
+    }
+    
+    .contener-nav-bar2 {
+    display: flex;
+    justify-content:center ;
+    }
+    
+    
+    
+    .T-Hébergement:hover  {
+    color: #0065FC;
+    
+    }
+    
+    
+    
+    .T-Activités:hover { 
+    color:#0065FC;
+    }
+
+    /* bar de navigation*/
+
+
+    
+/*} 
+
+
+
+/*
  
 @media screen and (max-width:992px) and (min-width:769px) {
     html,body {
        margin: 0%;
     }
 
-    /*en tete */
+    /*en tete 
     
     nav {
         width: 100%;
@@ -736,7 +1194,7 @@ br{
         margin-left: 48px;
     }
 
-    /*bar de recherche*/
+    /*bar de recherche
     
     .filtre {
         width: 100%;
@@ -766,7 +1224,7 @@ br{
         white-space: nowrap;
     }
 
-    /*fin de filtre*/
+    /*fin de filtre*
     
     .info {
         margin-left: 72px;
@@ -788,7 +1246,7 @@ br{
         margin-right: 72px;
     }
 
-    /*venir ajuster*/
+    /*venir ajuster
 
     .BlocPopulaire {
         display: flex;
@@ -827,7 +1285,7 @@ br{
         margin-top: -226px;
     }
 
-    /*card populaire */
+    /*card populaire 
 
     .hombrePopulaire {
         width: 253px !important;
@@ -892,7 +1350,7 @@ br{
 
 
 
-    /* activités a marseille*/
+    /* activités a marseille
 
     .h2-generalAct {
         margin-left: 81px;
@@ -941,7 +1399,7 @@ br{
 } 
 
 
-/*resposive mobile*/
+/*resposive mobile
  
 @media screen and (max-width:768px) and (min-width:350px) {
 
@@ -987,7 +1445,7 @@ justify-content: center;
 }*/
 
 
-/*reclegler le probleme de la barre*/
+/*reclegler le probleme de la barre
 .size-lien-mobile {
 width: 50%;
 border-bottom: 3px solid #f2f2f2;
@@ -1046,13 +1504,13 @@ color: #0065FC;
 color:#0065FC;
 }
 
-/*fin de la nav barre */
+/*fin de la nav barre 
 
 
 
 
 
-/*.size-lie {
+.size-lie {
 width: 50%;
 flex-direction: row;
 flex-wrap: wrap;
@@ -1068,7 +1526,7 @@ border-top: none;
 .bordurgr {
 border-bottom: #F2F2F2 3px solid;width: 100%;
 gap: none;
-}*/
+}*
 .section-modible1{
     width: 100%;
 }
@@ -1090,7 +1548,7 @@ height: 19px;
 margin-left: 20px;
 }
 
-/* section bar de recherche*/
+/* section bar de recherche
 
 .flex-Mcentr{ 
 display: flex;
@@ -1151,7 +1609,7 @@ border: none;
 }
 
 
-/*filtres mobile*/
+/*filtres mobile
 
 .mobile-filtres {
 flex-direction: column;
@@ -1213,13 +1671,13 @@ width: 100%;
 white-space: nowrap;
 }
 
-/*info*/
+/*info*
 
 .info {
 margin-left: 20px;
 }
 
-/*hebergement*/
+/*hebergement*
 
 .sectionHP {
 flex-direction: column-reverse;
@@ -1304,12 +1762,21 @@ margin-bottom: 33px;
 padding-left: 5px;
 }
 
+.PopulaireChart {
+    margin-top: 25px;
+
+}
+
+.Icon-chart {
+ margin-bottom: 15px;
+}
 
 
 
 
 
-/*activité*/
+
+/*activité*
 
 br{
 display: block;
@@ -1333,7 +1800,7 @@ margin-top: 24px;
     height: 190px;
 }
 
-/*footer*/
+/*footer*
 
 .rectangle-footer {
 width: ;
@@ -1358,5 +1825,7 @@ padding-bottom: 51px;
 }
 
 
-}
+
+*/
+
 
