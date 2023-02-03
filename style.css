@@ -8,7 +8,7 @@ body{
     
 }
 
- body,main { 
+ body,header,main,footer { 
     overflow-x: hidden;
 }
 
@@ -513,9 +513,11 @@ text-decoration-line:underline ;
     border-radius: 25px;
 }
 .marging-cardP {
-    margin-left: 41px;
+    margin-left: 48px;
     margin-bottom: 33px;
- }
+    box-sizing: content-box;
+    width: 80%;
+}
 
 .cardPooulaire {
     width:343px;
@@ -694,8 +696,324 @@ br{
     text-decoration-line: underline;
   }
 
+
+
+  @media screen and (min-width:769px) and (max-width:992px) {
+    body {
+    
+        width: 100%;
+        max-width: 992px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    nav {
+        display: flex;
+        gap: 56%;
+        justify-content: initial;
+    }
+
+    .Th1 {
+        margin-top: 50px;
+    }
+   
+    
+    .Recherch-box {
+    
+        width: 100%;
+    }
+
+    .Recherch-bar {
+        width: 25%;
+    
+    }
+
+    .Search {
+        width: 100px;
+    }
+
+    .filtre-texte {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    
+
+    
+
+
+    .margin-tablette{
+        width: 100%;
+    }
+
+
+    .filtre-texte-icons {
+        margin-right: 6px;
+    }
+    
+    .sectionHP {
+
+        flex-direction: column;
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .BlocHeberg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .SizeHeger {
+
+        width: 92%;
+        margin-left: 79px;
+        margin-right: 75px;
+    }
+
+    .Block1 {
+        margin-bottom: 20px;
+        margin-left: -3px;
+        margin-right: 10px;
+    }
+
+    
+    .Block2 {
+        margin-bottom: 20px;
+        margin-left: -3px;
+        margin-right: 10px;
+    }
+
+
+    .flex-betweenBlock1 {
+        
+        box-sizing: content-box;
+        gap: 0px;
+    }
+    
+    .hombrehegerment {
+      
+        width: 28%;
+       
+    }
+    .text-hebergement {
+    
+        font-size: 13px;
+        padding-left: 4px;
+      
+    }
+    
+    #hebergement{
+        font-size: 20px;
+        width: 50%;
+    }
+
+       /****Bloque populaire****/
+
+    .BlocPopulaire {
+        display: flex;
+        flex-direction: row;
+    }
+    .SizePopulaires {
+
+        width: 95%;
+        height: 300px;
+    
+    }
+   
+    .BloqueWrap {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 95%;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-left: -96%;
+        gap: 16px;
+    }
+
+
+    .cardPooulaire {
+        display: flex;
+        width: 208px;
+        height: 158px;
+        box-sizing: content-box;
+        
+    }
+    
+    
+    .marging-cardP {
+
+        width: 89%;
+        margin-left: 0px;
+        margin-bottom: 33px;
+        box-sizing: content-box;
+ 
+        
+    }
+
+    .text-populaires {
+
+        width: 100%;
+        margin-top: -226px;
+    }
+    .Icon-chart {
+   
+        margin-right: 10px;
+    
+    }
+
+    .BloqueWrap {
+
+        display: flex;
+        flex-wrap: nowrap;
+        width: 95%;
+        flex-direction: row;
+        margin-top: 100px;
+        gap: 6Opx;
+        margin-left: -96%;
+        gap: 25px;
+        
+    }
+
+        /*card populaire*/
+
+    .hombrePopulaire {
+        width: 253px !important;
+    }
+
+    .Padding-cardP {
+        padding-left: 2px;
+    }
+    .imgPoPu1 {
+        
+        height: 133px;
+    
+    }
+    
+    .imgPoPu2 {
+      
+     height: 133px;
+     
+    }
+    
+    .imgPoPu3 {
+       
+        height: 133px;
+        margin-left: 0px;
+    }
+    .imagepro {
+        width: 32%;
+    }
+    
+   
+    
+    
+    .cardPooulaire {
+        width: 263px;
+        height: 144px;
+    }
+    
+    .Padding-cardP {
+        font-size: clamp(10px, 2vw, 15px);
+        padding-left: 2px;
+    }
+    
+    
+    .card-etoil {
+        margin-top: 55px;
+    }
+    
+    
+    .card-text-popul {
+        margin-top: -18px;
+        margin-bottom: -20px;
+    }
+    
+    
+    .card-text-popu {
+        margin-top: -20px;
+    }
+    
+    .card-etoile {
+        margin-top: 32px;
+    }
+
+    .card-text-popu1 {
+        margin-top: -17px;
+        margin-bottom: 50px;
+    }
+    
+    .card-etoile1 {
+        margin-top: 52px;
+    }
+
+    .card-text-popul {
+        margin-top: -18px;
+        margin-bottom: -20px;
+    }
+    .card-etoil {
+        margin-top: 68px;
+    }
+
+    .ligneespace{
+        display: block;
+    } 
+
+               /****activité***/
+
+    .FlexblockActivité {
+        margin-left: 4px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .hombreActivite {
+    
+        width: 100%;
+        margin-left: 5px;   
+    }
+    
+    .rectangleActivité {
+    
+        width: 100%;
+        
+      
+    }
+    
+    .block-activités {
+       
+        width: 100%;
+        height: 80%;
+    }
+    .Padding-rec-texte {
+    
+        padding-left: 14px;
+        margin-top: 9px;
+        font-size: 15px;
+    }
+
+
+ /******************/
+    /*footer*/
+ /******************/
+
+    
+    .rectangle-footer {
+        width: 98%;
+        height: 225px;
+    }
+
+
+    .block-text {
+        padding-right: 0px;
+    
+    }
+
+
+
+  }
+
   
-  @media screen and (min-width:320px ) {
+  @media screen and (min-width:320px ) and (max-width:768px) {
 
      body{
         margin: 0;
@@ -703,7 +1021,7 @@ br{
     
     
     .Th1 {
-        font-size: clamp(22px, 4vw, 35px);
+        font-size: clamp(22px, 2vw, 30px);
         margin: 30px 0;
         font-weight: 700;
         width: 100%;
@@ -981,8 +1299,9 @@ br{
     }
     
     .marging-cardP {
-    margin-left: 6px;
-    margin-bottom: 33px;
+        margin-left: 27px;
+        width: 89%;
+        margin-bottom: 33px;
     }
     
     .Padding-cardP {
@@ -999,6 +1318,7 @@ br{
     flex-direction: column;
     width: 100%;
     margin-left: 20px;
+    margin-bottom: 20px;
     }
 
 
