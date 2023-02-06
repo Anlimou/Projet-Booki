@@ -1481,7 +1481,7 @@ text-decoration-line:underline ;
         width: 95%;
         flex-direction: row;
         margin-top: 100px;
-        gap: 6Opx;
+        gap: 60px;
         margin-left: -96%;
         gap: 25px;
 
@@ -1498,7 +1498,7 @@ text-decoration-line:underline ;
 
 
 
-        
+
     }
 
 
@@ -2476,7 +2476,6 @@ text-decoration-line:underline ;
         flex-direction: column;
         padding-top: 60px;
         padding-left: 33px;
-        padding-bottom: 80 px;
         padding-right: 0;
 
 
