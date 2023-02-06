@@ -1073,10 +1073,6 @@ text-decoration-line:underline ;
    /*****section activités******/
 
 
-/*br{
-    display: none;
-}*/
-
 
 
 
@@ -1488,6 +1484,19 @@ text-decoration-line:underline ;
         gap: 6Opx;
         margin-left: -96%;
         gap: 25px;
+
+        
+    }
+
+
+    .Populairtext {
+
+
+
+        font-size: 20px;
+        margin-left: 41px;
+
+
 
         
     }
@@ -2445,7 +2454,7 @@ text-decoration-line:underline ;
 
 
     
-        /*footer*/
+        /***footer***/
 
     .rectangle-footer {
 
@@ -2479,11 +2488,42 @@ text-decoration-line:underline ;
 
 
 
-        padding-top: 40px;
-        padding-bottom: 51px;
+        padding-top: 0px;
+        padding-bottom: 0px;
 
 
     
+    }
+
+
+
+    .marge-footer-mobile {
+
+
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+
+
+
+    }
+
+
+
+
+
+
+    .h3-footer {
+
+
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+
+
+
     }
 
     
