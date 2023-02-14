@@ -194,7 +194,7 @@ a {
     text-decoration: none;
     color: black;
     border-top: 3px solid transparent;
-  }
+  } 
   
   .nav-link:focus {
     color: #0065fc;
@@ -649,12 +649,11 @@ text-decoration-line:underline ;
 }
 
 
-
-
 .text-populaires {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 23px;
 }
 
 
@@ -786,7 +785,7 @@ text-decoration-line:underline ;
 }
 
   
-   /*****section activités******/
+/*****section activités******/
 
 
 
@@ -819,7 +818,7 @@ text-decoration-line:underline ;
 
 
 .rectangleActivité {
-    width: 302px;
+    width: 297px;
     height: 56px;
     margin-top: -5px;
     background-color: #FFFFFF;
@@ -840,14 +839,6 @@ text-decoration-line:underline ;
 }
 
 
-/*
-.text-deco:hover {
-    text-decoration-line: underline;
-}*/
-
-
-
-
 .hombreActivite {
     box-shadow: 0px 0px 5px 5px #e0e0e0;
     border-radius: 20px;
@@ -861,7 +852,7 @@ text-decoration-line:underline ;
 }
 
 
- /*footer*/
+/****footer****/
 
 .rectangle-footer {
     width: 1270px;
@@ -986,9 +977,6 @@ text-decoration-line:underline ;
         padding-left: 0px;
         padding-right: 10px;
     }
-    
-
-    
 
     .margin-tablette{
         width: 100%;
@@ -996,9 +984,13 @@ text-decoration-line:underline ;
 
 
     .filtre-texte-icons {
+        gap: 1px;
+        height: 44px;
+        border-radius: 30px;
         margin-right: 6px;
     }
-    
+
+
     .sectionHP {
 
         flex-direction: column;
@@ -1074,7 +1066,6 @@ text-decoration-line:underline ;
 
    
     .BloqueWrap {
-
         display: flex;
         flex-wrap: nowrap;
         width: 98%;
@@ -1082,21 +1073,14 @@ text-decoration-line:underline ;
         margin-top: 100px;
         margin-left: -96%;
         gap: 36px;
-
-
     }
 
 
     .cardPooulaire {
-
-
         display: flex;
         width: 208px;
         height: 158px;
-        box-sizing: content-box;
-
-
-        
+        box-sizing: content-box;  
     }
     
     
@@ -1108,20 +1092,15 @@ text-decoration-line:underline ;
     
     }
 
+        
     .text-populaires {
-
-
         width: 100%;
-        margin-top: -226px;
-
-
+        height: 549px;
+        margin-top: -221px;
     }
 
-
     .Icon-chart {
-   
         margin-right: 10px;
-    
     }
 
 
@@ -1143,7 +1122,7 @@ text-decoration-line:underline ;
 
 
 
-        /*card populaire*/
+/***card populaire***/
 
     .hombrePopulaire {
         width: 253px !important;
@@ -1288,14 +1267,10 @@ text-decoration-line:underline ;
 
 
     .Th1 {
-
-
         font-size: clamp(22px, 2vw, 30px);
         font-weight: 700;
         width: 90%;
         height: 26px;
-
-
     }
 
 
@@ -1305,50 +1280,49 @@ text-decoration-line:underline ;
        padding: 0;
      }
    
-     #navbar {
+    #navbar {
        align-items: center;
        flex-direction: column;
        gap: 49px;
      }
    
-     #nav-links {
+    #nav-links {
        gap: 0;
        padding: 0;
      }
    
-     .nav-item,
+    .nav-item,
      nav {
        width: 100%;
-     }
+    }
    
-     .nav-link {
-       display: flex;
-       justify-content: center;
-       padding: 0 0 13px 0;
-     }
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 13px 0;
+        color: black;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+    }
    
-     .nav-link:focus {
+    .nav-link:focus {
        color: #0065fc;
        border-top: none;
        border-bottom: 3px solid #0065fc;
-     }
+    }
    
-     .nav-link:hover {
-
+    .nav-link:hover {
        color: #0065fc;
        border-top: none;
        border-bottom: 3px solid #0065fc;
-
-     }
+    }
    
 
 
     .section-modible {
-
         width: 100%;
         display: flex;
         flex-direction: column;
-    
     }
 
     br{
@@ -1356,63 +1330,41 @@ text-decoration-line:underline ;
     }
 
 
-
-
     .Recherch-box {
-
         display: inline-flex;
         flex-direction: row;
         justify-content: center;
         width: 100%;
         height: 49px;
-
     }
     
     .icon-location {
-
-
-
         display: flex;
         justify-content: center;
         align-items: center;
         width: 55px;
         height: 49px;
         background-color: #F2F2F2 ;
-
-
-
     }
+
     
-    .Recherch-bar {
-
-
-            
+    .Recherch-bar {    
         padding: 0 0 0 20px;
         height: 49px;
         width: 65%;
         border: none;
         border-top: solid 1px #F2F2F2;
         border-bottom: solid 1px #F2F2F2;
-
-
-    
     }
     
     .mobilenone {
-
-
         display: none;
 
-
-
     }
+
     
     .desktopnone{
-
-
         display: block;
-
-
     }
 
 
@@ -1591,7 +1543,9 @@ text-decoration-line:underline ;
     }
 
 
-
+    .text-populaires {
+        font-size: 15px;
+    }
     
     .cardPooulaire {
         width: 100%;
@@ -1600,9 +1554,6 @@ text-decoration-line:underline ;
         display: flex;
     }
 
-
-
-
     
     .marging-cardP {
         margin-left: 27px;
@@ -1610,129 +1561,84 @@ text-decoration-line:underline ;
         margin-bottom: 33px;
     }
 
-    
 
-
-
-    
     .Padding-cardP {
-        padding-left: 5px;
+        overflow: hidden;
+        width: 60%;
     }
 
+    .imgPoPu1,.imgPoPu2,.imgPoPu3 {
+        width: 137px;
+    }
 
 
 
     
     .PopulaireChart {
-
-
-
         margin-top: 25px;
-
-
-
-    
     }
 
 
 
 
     .FlexblockActivité {
-
-
-
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-left: 20px;
         margin-bottom: 20px;
-
-
-
     }
 
 
     .h2-generalAct {
-
-
-
         margin-left: 20px;
         width: 40%;
-
-
     }
 
 
 
     
     .hombreActivite {
-
-
-
         box-shadow: 0px 0px 5px 5px #e0e0e0;
         border-radius: 20px;
         width: 90%;
         margin-top: 24px;
-
-
-
-
     }
 
 
 
 
     .block-activités {
-
-
-
         width: 100%;
         height: 190px;
+    }
 
-
-
+    .rectangleActivité {
+        width: 100%;
     }
 
 
     
-        /***footer***/
+   /***footer***/
 
     .rectangle-footer {
-
-
-
         width: 100% ;
         height: 501px;
         padding-right: 0;
         margin-top: 80px;
-
-
-
     }
     
     .block-text {
-
-
-
         flex-direction: column;
         padding-top: 60px;
         padding-left: 33px;
         padding-right: 0;
-
-
-
     }
     
     
     .footer-texte-padding1 {
-
-
-
         padding-top: 0px;
         padding-bottom: 0px;
-
-
-    
     }
 
 
