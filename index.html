@@ -8,38 +8,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway&display=swap" rel="stylesheet">
     <title>Booki</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <script src="https://kit.fontawesome.com/ac3d196239.js" crossorigin="anonymous"></script>
 </head>
 <body>
  
     <!--section en tete-->
-    <header>
-       
-          <nav class="contener-a" >
-              <a href="#" id="logo">
-                  <img src="images/Booki.png" alt="logo booki" class="logo">
-              </a>
-              <!--logo booki-->
-              <div class=" " id = "contener-na" >
-                  <div class= "size-lien-mobile contener-nav-bar1" >
-                      <a href= "#hebergement" class="T-Hébergement link bordurgris ">Hébergements</a>
-                  </div>
-                <div class= "size-lien-mobile contener-nav-bar2"> 
-                    <a  href ="#activites" class="T-Activités link bordurgris"> Activités </a>
-                </div>
-              </div>
-      
-              </nav>
-
+    <header id="navbar">
+      <img id="logo" src="images/Booki.png" alt="logo Booki" >
+      <nav>
+        <ul id="nav-links">
+          <li class="nav-item">
+            <a class="nav-link" href="#hosting-section">Hébergements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activities-section">Activités</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
             <!--section bar de recherche-->
             <section class="section-modible">
-                <h1 class="Th1 flex-Mcentre"> Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h1 class="Th1"> Trouvez votre hébergement pour des vacances de rêve</h1>
                 <P class="Ph1 "> En plein centre-ville ou en pleine nature </P>
 
-                <div class="Recherch-box flex-Mcentre">
+                <div class="Recherch-box ">
                     <div class="icon-location">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
@@ -54,26 +48,26 @@
                 <div class="marg-filtre-titre"><h3>Filtres</h3></div>
                 <!-- rajoute 2 div flex-around pour separer en mobile -->
                 <!-- div1 -->
-                <div class=" marginfiltre-mobile flex-around">
+                <div class=" marginfiltr-mobile flex-around">
                   <div class="mobile-economiques flex-between filtre-texte-icons filtre-bouton">
-                    <i class="fas fa-money-bill-wave fa-lg filtre-icons flex-centre"
+                    <i class="fas fa-money-bill-wave fa-lg filtre-icons flex-start"
                     ></i>
-                    <div class="filtre-texte flex-centre texte-familial">Économique</div>
+                    <div class="filtre-texte flex-start texte-familial">Économique</div>
                   </div>
                   <div class="mobile-familiales flex-between filtre-texte-icons filtre-bouton">
-                    <i class="fas fa-child fa-lg filtre-icons flex-centre"></i>
-                    <div class="filtre-texte flex-centre texte-familial">Familial</div>
+                    <i class="fas fa-child fa-lg filtre-icons flex-start"></i>
+                    <div class="filtre-texte flex-start texte-familial">Familial</div>
                   </div>
                 </div>
                 <!-- div2 -->
                 <div class="marginfiltre-mobile flex-around">
                   <div class="flex-between filtre-texte-icons filtre-bouton ">
-                    <i class="fas fa-heart fa-lg filtre-icons flex-centre  "></i>
-                    <div class="filtre-texte flex-centre texte-familial">Romantique</div>
+                    <i class="fas fa-heart fa-lg filtre-icons flex-start  "></i>
+                    <div class="filtre-texte flex-start texte-familial">Romantique</div>
                   </div>
                   <div class="flex-between filtre-texte-icons filtre-bouton filtre-texte-icon">
-                    <i class="fas fa-dog fa-lg filtre-icons flex-centre"></i>
-                    <div class="filtre-texte flex-centre texte-animaux ">Animaux autorisés</div>
+                    <i class="fas fa-dog fa-lg filtre-icons flex-start"></i>
+                    <div class="filtre-texte  texte-animaux ">Animaux autorisés</div>
                   </div>
                 </div>
               </div>
@@ -92,14 +86,14 @@
               <h2 id="hebergement" class="texthebergement"> Hébergements à Marseille</h2> 
                 <!--Block1-->
                 
-              <article class="Block1 flex-betweenBlock1">
+              <div class="Block1 flex-betweenBlock1">
                     <!--card 1-->
                   <a href="#" class="cardhebergement hombrehegerment">
                       <div class="imgheberge-1"></div>
                       <article class="text-hebergement">
                             <h3 class="magingtext">Auberge de la Cannebière</h3>
                             <p class="magingtext1">Nuit à partir de 25€</p>
-                          <article> 
+                          <div> 
                                 <div class="magingtext1"> 
                                     <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
                                     <i class=" Icon-star fa-solid fa-star"></i>
@@ -107,7 +101,7 @@
                                     <i class=" Icon-star fa-solid fa-star"></i>
                                     <i class=" Icon-starB fa-solid fa-star"></i>
                                 </div>
-                          </article>
+                          </div>
                     </article>
 
                   </a>
@@ -117,7 +111,7 @@
                       <article class="text-hebergement">
                         <h3 class="magingtext">Hôtel du port</h3>
                         <p class="magingtext1">Nuit à partir de 52€</p>
-                        <article>
+                        <div>
                               <div class="magingtext1"> 
                                     <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
                                     <i class=" Icon-star fa-solid fa-star"></i>
@@ -125,7 +119,7 @@
                                     <i class=" Icon-star fa-solid fa-star"></i>
                                     <i class=" Icon-starB fa-solid fa-star"></i>
                               </div>
-                        </article>
+                        </div>
                         
                       </article>
                   </a>
@@ -136,7 +130,7 @@
                     <article class="text-hebergement">
                           <h3 class="magingtext">Hôtel Les mouettes</h3>
                           <p class="magingtext1">Nuit à partir de 76€</p>  
-                          <article>
+                          <div>
                                   <div class="magingtext1"> 
                                     <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
                                     <i class=" Icon-star fa-solid fa-star"></i>
@@ -145,17 +139,17 @@
                                     <i class=" Icon-starB fa-solid fa-star"></i>
                                 </div>
 
-                          </article>
+                              </div>
 
                       </article>
 
                   </a>
                 
-              </article>
+                </div>
 
                 <!--Block2-->
 
-                <article class="Block2 flex-betweenBlock2">
+                <div class="Block2 flex-betweenBlock2">
                     <!--card 4-->
                 <a href ="#" class="cardhebergement hombrehegerment">
                   <div class="imgheberge-4"></div>
@@ -163,7 +157,7 @@
                           <h3 class="magingtext">Hôtel de la mer</h3>
                           <p class="magingtext1">Nuit à partir de 46€</p>
                       
-                          <article> 
+                          <div> 
                           
                               <div class="magingtext1"> 
                                   <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
@@ -173,7 +167,7 @@
                                   <i class=" Icon-starB fa-solid fa-star"></i>
                               </div>
                         
-                          </article>
+                            </div>
 
                   </article>
 
@@ -186,7 +180,7 @@
                               <h3 class="magingtext">Auberge Le Panier</h3>
                               <p class="magingtext1">Nuit à partir de 23€</p>
 
-                              <article>
+                              <div>
 
                                 <div class="magingtext1"> 
                                     <i class=" Icon-star CardPopulare1 fa-solid fa-star"></i>
@@ -196,7 +190,7 @@
                                     <i class=" Icon-starB fa-solid fa-star"></i>
                                 </div>
                           
-                              </article>
+                              </div>
 
                       </article>
 
@@ -218,24 +212,24 @@
                   </article>
                 </a>
                 
-                </article>
+              </div>
               
               <p class="text-gras textafficher">Afficher plus </p>
             </article>
             
             <article class="SizePopulaires BlocPopulaire  ">
 
-                    <div class="text-populaires FlexCenter ">
+                    <div class="text-populaires ">
 
                         <h2 class="text-gras Populairtext PopulaireChart">Les plus populaires</h2>
                         <div class="PopulaireChart"> <i class="fa-solid fa-chart-line Icon-chart  "></i> </div>
-                    
+      
                     </div>
-                  <article class="BloqueWrap ">
+                    <div class="BloqueWrap ">
                         <!--cardP1-->
                         <a href="#" class="cardPooulaire  marging-cardP hombrePopulaire ">
                               <div class="imgPoPu1 imagepro "> </div> 
-                              <article class="Padding-cardP"> 
+                              <div class="Padding-cardP"> 
                                         <article class="card-text-popu card-text-popu1">
                                           <h4 class="titre-card-populaire"> Hotel Le soleil <br class="ligneespace"> du matin </h4>
                                           <p class="card-texte"> Nuit à partir de 128€  </p>
@@ -247,13 +241,13 @@
                                               <i class=" Icon-star fa-solid fa-star"></i>
                                               <i class=" Icon-starB fa-solid fa-star"></i>
                                         </div>
-                              </article>
+                                      </div>
 
                         </a>
                           <!--cardP2-->
                         <a href="#" class="cardPooulaire marging-cardP  hombrePopulaire ">
                               <div class="imgPoPu2 imagepro "> </div> 
-                              <article class="Padding-cardP"> 
+                              <div class="Padding-cardP"> 
                                           <article class=" card-text-popu" >
                                             <h4 class="titre-card-populaire"> Chambres <br class="ligneespace"> d’hôtes Au <br class="ligneespace"> cœur de l’eau </h4>
                                             <p class="card-texte"> Nuit à partir de 128€ </p>
@@ -265,13 +259,13 @@
                                               <i class=" Icon-star fa-solid fa-star"></i>
                                               <i class=" Icon-starB fa-solid fa-star"></i>
                                           </div>
-                              </article>
+                                        </div>
 
                         </a>
                           <!--cardP3-->
                         <a href="#" class="cardPooulaire marging-cardP  hombrePopulaire ">
                               <div class="imgPoPu3 imagepro "> </div> 
-                              <article class="Padding-cardP"> 
+                              <div class="Padding-cardP"> 
                                     <article class="card-text-popul ">
                                       <h4 class="titre-card-populaire" > Hôtel Bleu et <br class="ligneespace"> Blanc </h4>
                                       <p class="card-texte"> Nuit à partir de 128€  </p>
@@ -283,11 +277,11 @@
                                         <i class=" Icon-star fa-solid fa-star"></i>
                                         <i class=" Icon-starB fa-solid fa-star"></i>
                                     </div>
-                                  </article>
+                                  </div>
 
                         </a>
 
-                  </article>
+                      </div>
             
 
             </article>

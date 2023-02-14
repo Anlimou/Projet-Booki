@@ -1,15 +1,12 @@
 /*GENERAL*/
+
 html,
 body {
-
-
 
     font-family: Raleway;
     width: 100%;
     max-width: 1400px;
     margin: 0 1rem;
-
-
     
 }
 
@@ -28,11 +25,7 @@ body {
 
 body,header,main,footer { 
 
-
-
     overflow-x: hidden;
-
-
 
 }
 
@@ -41,11 +34,7 @@ body,header,main,footer {
 
 main {
 
-
-
     margin-right: 0;
-
-
 
 }
 
@@ -54,70 +43,50 @@ main {
 
 .FlexCenter {
 
-
-
     display: flex !important;
     justify-content: center;
     align-items: center;
 
-
-
-    
 }
 
 .flex-centre { 
-
 
     display: flex !important;
     justify-content: center ;
     align-items: center;
 
-
 }
 
 .flex-around {
-
 
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-
 }
 
 .flex-between {
-
-
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-
-
 }
 
 .flex-between {
 
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 
 }
 
 .flexcolumncentre {
 
-
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 
 }
 
@@ -125,28 +94,18 @@ main {
 
 .flexcolumnaround {
 
-
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
-
 
 }
 
 
 .flexcolumnbetween {
 
-
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
-
 
 }
 
@@ -173,6 +132,12 @@ main {
 
 
 }
+
+br{
+    display: none;
+}
+
+
    
 .Th1  {
         
@@ -185,7 +150,8 @@ main {
 
 
 .Th2 {
-
+     
+    padding: 10px 0 0 0;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -195,107 +161,53 @@ main {
 }
 
 
-nav { 
+ul {
+    list-style-type: none;
+  }
 
+
+a {
+    text-decoration: none !important;
+    color: black;
+  }
+
+
+#logo {
+    padding: 47px 0px 27px 0px;
+    width: 61px;
+  }
+  #navbar {
     display: flex;
     justify-content: space-between;
-
-}
-
-
-.link {
-
-    padding-top: 46px;
-
-}
-
-
-.logo {
-
-    width: 65px;
-    height: 20px;
-    padding-top: 46px;  
-
-
-}
-
-
-.contener-nav-bar1 :hover {
-
-    border-top: #0065FC 3px solid;
-
-
-}
-
-.contener-nav-bar1 {
-
+  }
+  
+  #nav-links {
     display: flex;
-    width: 113px;
-    justify-content:center ;
-
-
-}
-
-
-#contener-na {
-
-    width: 20%;
-    display: flex;
-    gap: 50px;
-    
-}
-
-.contener-nav-bar2:hover {
-
-    border-top: #0065FC 3px solid;
-
-
-    
-}
-
-.contener-nav-bar2 {
-
-    display: flex;
-    justify-content:center ;
-
-}
-
-.T-Hébergement  {
-    
+    margin-top: 0px;
+    gap: 14px;
+    padding: 0;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 50px 40px 10px 15px;
     text-decoration: none;
-    width: 113px;
-    height: 19px;
     color: black;
- 
-}
-
-.T-Hébergement:hover  {
-
-    color: #0065FC;
- 
-
-}
-
-
-.T-Activités {
-
-
-    text-decoration: none;
-    width: 113px;
-    height: 19px;
-    color: black;
+    border-top: 3px solid transparent;
+  }
+  
+  .nav-link:focus {
+    color: #0065fc;
+    border-top: 3px solid #0065fc;
+  }
+  
+  .nav-link:hover {
+    color: #0065fc;
+    border-top: 3px solid #0065fc;
+  }
 
 
-}
-
-.T-Activités:hover { 
-
-    color:#0065FC;
-
-}
-
-/*fin de la nav barre */
-
+  
 
 .Th1 {
 
@@ -321,6 +233,7 @@ nav {
 
     display: inline-flex;
     flex-direction: row;
+    border-collapse: collapse;
     margin-top: 15px;
     margin-bottom: 35px;
 
@@ -366,6 +279,7 @@ nav {
 
     border-radius: 0 14px 14px 0;
     background-color: #0065fc;
+    height: 16px;
     color: #F2F2F2;
     font-weight: 700;
     font-size: 18px;
@@ -391,7 +305,7 @@ nav {
 
     font-family: 'Raleway';
     padding: 0 0 0 20px;
-    height: 50px;
+    height: 48px;
     width: 220px;
     border: none;
     border-top: solid 1px #F2F2F2;
@@ -407,16 +321,14 @@ nav {
     color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 700;
-    text-align: center;
-
-
+    
 
 }
+
 
 .desktopnone {
 
   display: none;
-
 
 }
 
@@ -428,8 +340,9 @@ nav {
 
 
     color: #0065FC;
-    width: 52px;
-    height: 52px
+    width:30px;
+    height: 52px;
+    padding: 10px 
 
 
 }
@@ -464,20 +377,20 @@ nav {
 
 
 }
+.flex-start {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+}
   
 
 .filtre-texte {
-
-
-    height: 50px;
-    padding-left: 1px;
+   
     font-weight: 700;
-    font-size: 17px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
-
-
 }
+
 
   .filtre-bouton:hover {
 
@@ -559,40 +472,28 @@ nav {
 
 
 .flex-betweenBlock1 {
-
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-
-
 }
 
 
 
 
 .flex-betweenBlock2 {
-
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-
-
 }
 
 
 
 
 .text-hebergement {
-
-
     padding-left:  9px;
     color: black;
-
-
 } 
 
 
@@ -610,11 +511,7 @@ text-decoration-line:underline ;
 
 
 .magingtext1{
-
-
     margin-top: -10px !important;
-
-
 }
 
 
@@ -622,47 +519,30 @@ text-decoration-line:underline ;
 
 
 .Block1 {
-
-
   margin-bottom: 20px;
-
-
 }
 
 
 
 .Block2{
-
-
-    margin-bottom: 20px;
-
-
+  margin-bottom: 20px;
 }
 
 
 
 .BlocHeberg {
-
-
     padding-left: 20px;
     padding-right: 20px;
-
-
 }
 
 
 .cardhebergement {
-
-
     width: 246px;
     height: 199px;
     background-color: white;
     padding: 6px;
     border-radius: 20px;
     text-decoration: none;
-
-
-
 }
 
 
@@ -791,11 +671,8 @@ text-decoration-line:underline ;
 
 .BlocPopulaire {
 
-
-
     padding-right: 20px;
 
- 
     
 }
 
@@ -803,115 +680,49 @@ text-decoration-line:underline ;
 
 
 .PopulaireChart {
-
-
-    margin-top: 30px;
     margin-left: 41px;
-
-
-   
+    margin: 0.67em 0;
 }
 
 
 
 
 .text-populaires {
-
-
-
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-
-
 }
 
- .Populairtext {
 
-    
+.Populairtext {
     margin-left: 41px;
-
-
 }
 
-
-
- .card-text-popu {
-
-
-    margin-top: -18px;
-
-
-}
-
-
-.card-etoile {
-
-
-    margin-top: 55px;
-
-
-}
-
-
-.card-text-popul {
-
-
-    margin-top: -17px; 
-
-
-}
 
 .card-texte {
-
-    
     margin-top: -21px;
-
-
-}
-
-
-.card-etoil {
-
-
-    margin-top: 68px;
-
-
 }
 
 
 
 .Icon-chart  {
-
-
     width: 18px;
     height: 15.75px;
     margin-right:20px;
     color: #0065FC;
     border-radius: 25px;
-
-
 }
 
 
 
 .marging-cardP {
-
-
     margin-left: 48px;
     margin-bottom: 33px;
     box-sizing: content-box;
     width: 80%;
-
-
 }
 
 .cardPooulaire {
-
-
-
     display: flex;
     width:343px;
     height: 144px;
@@ -925,89 +736,51 @@ text-decoration-line:underline ;
     text-decoration: none;
     background: #FFFFFF;
     border-radius: 20px;
-
-
-
-
 }
-
-
 
 
 .cardPooulaire:hover {
-
-
     cursor: pointer;
     transform: scale(1.05);
-
-
-
 }
-
-
 
 
 .Padding-cardP {
-
-
-  padding-left: 15px;
-
-
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 10px;
 }
 
 
-/*
-.titre-card-populaire:hover {
-    text-decoration-line:underline ;
-} */
 
 
 
 .Icon-star {
-
-
     width: 12px;
     height: 12px;
     color: #0065FC;
-
-
-
 }
 
 
 .Icon-starB {
-
-
     width: 12px;
     height: 12px;
     color:#F2F2F2;
     padding-bottom: 12px;
-
-
-
-
 }
 
 
 
 .hombrePopulaire {
-
-
     box-shadow: 0px 0px 5px 5px #e0e0e0;
     border-radius: 20px;
     width: 300px;
-    height:144px ;
-   
-    
+    height:144px ;   
 }
 
 
-
-
 .imgPoPu1 {
-
-
     background-image: url("images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -1015,18 +788,10 @@ text-decoration-line:underline ;
     height: 134px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
-
-
-
 }
 
 
-
-
 .imgPoPu2 {
-
-
-
     background-image: url("images/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -1034,18 +799,12 @@ text-decoration-line:underline ;
     height: 134px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
-
-
-
 }
 
 
 
 
 .imgPoPu3 {
-
-
-
     background-image: url("images/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
     margin-left: 0px;
@@ -1054,19 +813,12 @@ text-decoration-line:underline ;
     height: 134px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px; 
-
-
-
 }
 
 
 
 .ligneespace {
-
-
     display: none;
-
-
 }
 
   
@@ -1290,9 +1042,10 @@ text-decoration-line:underline ;
 
 
 @media screen and (min-width:769px) and (max-width:992px) {
+
+
     body {
-    
-        width: 100%;
+        width: 95%;
         max-width: 992px;
         margin-left: 15px;
         margin-right: 15px;
@@ -1401,11 +1154,8 @@ text-decoration-line:underline ;
        /****Bloque populaire****/
 
     .BlocPopulaire {
-
         display: flex;
         flex-direction: row;
-
-
     } 
 
 
@@ -1421,11 +1171,11 @@ text-decoration-line:underline ;
 
         display: flex;
         flex-wrap: nowrap;
-        width: 95%;
+        width: 98%;
         flex-direction: row;
         margin-top: 100px;
         margin-left: -96%;
-        gap: 16px;
+        gap: 36px;
 
 
     }
@@ -1474,31 +1224,18 @@ text-decoration-line:underline ;
 
 
     .BloqueWrap {
-
-
         display: flex;
         flex-wrap: nowrap;
         width: 95%;
         flex-direction: row;
         margin-top: 100px;
-        gap: 60px;
-        margin-left: -96%;
-        gap: 25px;
-
-        
+        gap: 38px;
     }
 
 
     .Populairtext {
-
-
-
         font-size: 20px;
         margin-left: 41px;
-
-
-
-
     }
 
 
@@ -1506,160 +1243,72 @@ text-decoration-line:underline ;
         /*card populaire*/
 
     .hombrePopulaire {
-
-
         width: 253px !important;
-
     }
 
-    .Padding-cardP {
 
+
+    .Padding-cardP {
         padding-left: 2px;
     }
 
     
 
     .imgPoPu1 {
-        
         height: 133px;
-    
     }
     
     .imgPoPu2 {
-      
      height: 133px;
-     
     }
     
     .imgPoPu3 {
-       
         height: 133px;
         margin-left: 0px;
-
-
     }
 
 
     .imagepro {
-
         width: 32%;
-
     }
     
    
     
     
     .cardPooulaire {
-
-
         width: 263px;
         height: 144px;
-
-
     }
     
+        
     .Padding-cardP {
-
-
         font-size: clamp(10px, 2vw, 15px);
-        padding-left: 2px;
-
-
+        padding: 0px 8px;
     }
     
-    
-    .card-etoil {
-
-
-        margin-top: 55px;
-
-
-    }
     
     
     .card-text-popul {
-
-
-        margin-top: -18px;
-        margin-bottom: -20px;
-
-
+        margin-top: -7px;  
     }
     
     
     .card-text-popu {
-
-
-        margin-top: -20px;
-
-
+        margin-top: -7px;
     }
 
-
-    
-    .card-etoile {
-
-
-        margin-top: 32px;
-
-
-    }
-
-
-
-
-    .card-text-popu1 {
-
-
-        margin-top: -17px;
-        margin-bottom: 50px;
-
-
-    }
-
-
-    
-    .card-etoile1 {
-
-
-        margin-top: 52px;
-
-
-    }
 
 
 
 
     .card-text-popul {
-
-
-        margin-top: -18px;
-        margin-bottom: -20px;
-
-
-    
+        margin-top: -7px;
+       
     }
-
-
-
-    .card-etoil {
-
-
-        margin-top: 68px;
-
-
-    }
-
-
 
 
     .ligneespace{
-
-
         display: block;
-
-
-
     } 
 
 
@@ -1669,32 +1318,20 @@ text-decoration-line:underline ;
 
 
     .FlexblockActivité {
-
-
         margin-left: 4px;
         width: 100%;
         margin-bottom: 20px;
-
-
     }
     
     .hombreActivite {
-
-    
         width: 100%;
-        margin-left: 5px;  
-        
-        
+        margin-left: 5px; 
     }
 
 
     
     .rectangleActivité {
-
-    
         width: 100%;
-        
-      
     }
 
     
@@ -1702,24 +1339,15 @@ text-decoration-line:underline ;
 
     
     .block-activités {
-
-
-       
         width: 100%;
         height: 80%;
-
-
     }
 
 
     .Padding-rec-texte {
-
-    
         padding-left: 14px;
         margin-top: 9px;
         font-size: 15px;
-
-
     }
 
 
@@ -1730,20 +1358,14 @@ text-decoration-line:underline ;
     
     .rectangle-footer {
 
-
         width: 98%;
         height: 225px;
-
-
     }
 
 
     .block-text {
 
-
         padding-right: 0px;
-
-
     
     }
 
@@ -1752,16 +1374,13 @@ text-decoration-line:underline ;
 }
 
   
-@media screen and (min-width:320px ) and (max-width:768px) {
+@media screen and (min-width:120px ) and (max-width:768px) {
 
-     body{
-
-
-        margin: 0;
-
-
-     }
-    
+    body {
+        margin: 15px 0 15px 0;
+        width: 95%;
+        max-width: 768px;
+    }
     
 
 
@@ -1769,227 +1388,80 @@ text-decoration-line:underline ;
 
 
         font-size: clamp(22px, 2vw, 30px);
-        margin: 30px 0;
         font-weight: 700;
-        width: 100%;
+        width: 90%;
         height: 26px;
 
 
     }
 
 
+     /*NAVBAR */
+     #logo {
+       margin-top: 21px;
+       padding: 0;
+     }
+   
+     #navbar {
+       align-items: center;
+       flex-direction: column;
+       gap: 49px;
+     }
+   
+     #nav-links {
+       gap: 0;
+       padding: 0;
+     }
+   
+     .nav-item,
+     nav {
+       width: 100%;
+     }
+   
+     .nav-link {
+       display: flex;
+       justify-content: center;
+       padding: 0 0 13px 0;
+     }
+   
+     .nav-link:focus {
+       color: #0065fc;
+       border-top: none;
+       border-bottom: 3px solid #0065fc;
+     }
+   
+     .nav-link:hover {
+
+       color: #0065fc;
+       border-top: none;
+       border-bottom: 3px solid #0065fc;
+
+     }
+   
 
 
-    
-    nav {
+    .section-modible {
 
-
-    
         width: 100%;
-        align-items: center;
+        display: flex;
         flex-direction: column;
-
-
-
+    
     }
-        
 
-
-
-        
-    .logo { 
-
-
-        margin-left: 157px;
-        margin-right: 157px; 
-
-
+    br{
+        display: block;
     }
 
 
 
-
-    
-    #contener-na {
-
-
-        width: 100%;
-        gap: 0%;
-
-
-        
-    }
-
-
-    
-    .T-Hébergement {
-
-
-        margin-left: 30px; 
-
-
-    }
-
-
-
-    .T-Activités{
-
-
-        padding-left: 65px;
-
-
-
-    }
-
-
-
-
-    
-    
-    .size-lien-mobile {
-
-
-
-        width: 50%;
-        border-bottom: 3px solid #f2f2f2;
-        padding-bottom: 23px !important;
-
-
-
-    }
-
-
-    
-    .size-lien-mobile:hover {
-
-
-    
-        border-bottom: 3px solid #0065fc;
-
-
-    
-    }
-
-
-    
-    .contener-nav-bar1 {
-
-
-        border-top: none;
-
-
-    
-    }
-
-
-
-    .contener-nav-bar2 {
-
-
-        border-top: none;
-
-
-    
-    } 
-    
-    
-
-    .contener-nav-bar1 :hover {
-
-
-       border-top:none;
-
-
-
-    }
-
-
-
-    
-    .contener-nav-bar1 {
-
-
-        display: flex;
-        justify-content:center ;
-
-
-    }
-    
-    #contener-na {
-
-    
-        display: flex;
-        justify-content: space-between;
-
-
-    
-    }
-    
-    .contener-nav-bar2:hover {
-
-
-        border-top: none;
-
-
-    
-    }
-
-
-
-    
-    .contener-nav-bar2 {
-
-
-        display: flex;
-        justify-content:center ;
-
-
-    }
-    
-    
-    
-    .T-Hébergement:hover  {
-
-
-
-        color: #0065FC;
-
-
-
-    
-    }
-    
-
-
-    
-    
-    .T-Activités:hover { 
-
-
-
-        color:#0065FC;
-
-
-
-    }
-
-
-
-    /* bar de navigation*/
 
     .Recherch-box {
 
-
-
         display: inline-flex;
         flex-direction: row;
+        justify-content: center;
         width: 100%;
         height: 49px;
-        margin-left:5px;
-        margin-right: 118px;
-        margin-top: 18px;
-        margin-bottom: 35px;
-
 
     }
     
@@ -2000,7 +1472,7 @@ text-decoration-line:underline ;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 15%;
+        width: 55px;
         height: 49px;
         background-color: #F2F2F2 ;
 
@@ -2014,7 +1486,7 @@ text-decoration-line:underline ;
             
         padding: 0 0 0 20px;
         height: 49px;
-        width: 50%;
+        width: 65%;
         border: none;
         border-top: solid 1px #F2F2F2;
         border-bottom: solid 1px #F2F2F2;
@@ -2044,169 +1516,110 @@ text-decoration-line:underline ;
 
     
     .Search {
-
-        
         border-radius: 0 14px 14px 0;
         background-color: #0065fc;
         color: #F2F2F2;
-        width: 10%;
+        width: 20px;
         font-weight: 700;
         font-size: 18px;
         padding: 17px;
         cursor: pointer;
         border: none;
-
-
-
     }
 
     .mobile-filtres {
-
-
         flex-direction: column;
         align-items: flex-start;
-
-
-
     }
 
 
 
     .wrap-mobile {
-
-
-         flex-wrap: wrap;
-
-
+        flex-wrap: wrap;
     }
     
     .filtre-texte {
-
-
         font-weight: 700;
         font-size: 11px;
         height: 13px;
         padding-right:18px;
-
-
-    
     }
     
     
     
-    .filtre-texte-icons {
-
-
-            
+    .filtre-texte-icons {    
         border: 2px solid #f2f2f2;
         height: 40px;
-        width: 150px;
+        width: 45%;
         margin-right: 12px;
-
-
-
     }
 
 
 
     
-    .filtre-icons {
-
-            
+    .filtre-icons {     
         width: 52px;
         height: 52px;
         color: #0065FC;
-
-
     }
     
     .margin-filtre-mobile {
-
-
-        padding-left: 10px;
         width: 100%;
-    
-    
     }
-
-
-
-    .marginfiltre-mobile {
-
-
-        padding-bottom:17px ;
-
-
-    }
-    
     
 
 
 
     .marg-filtre-titre {
-
-
         width: 100%;
-        margin-left: 12px;
-
-
     }
-    
+
+    .marginfiltr-mobile {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+
 
 
 
     .marginfiltre-mobile {
-
-
+        display: flex;
+        justify-content: space-evenly;
         width: 100%;
         padding-top: 0px;
-
-
     }
+
+
 
 
     
     .texte-familial {
-
-
         width: 100%;
-
-
     }
     
     .texte-animaux {
-
-
         width: 100%;
         white-space: nowrap;
-
-
-
     }
 
 
 
 
     .sectionHP {
-
-
         flex-direction: column-reverse;
         width: 100%;
-
-
     }
         
 
 
 
     .BlocPopulaire {
-
-
         flex: none;
         height: 100%;
         width: 100%;
-
-
     }
 
 
@@ -2214,80 +1627,47 @@ text-decoration-line:underline ;
     
     
     .BlocHeberg {
-
-
         height: 100%;
-
-
     }
 
 
 
     
     .Block1 {
-
-
         flex-direction: column;
-
-
     }
 
 
 
     .Block2 {
-
-
         flex-direction: column;
-
-
-    
     }
     
     .SizeHeger {
-
-
         padding-top: 0px;
         margin-top: 0px;
         width: 100%;
         height: 100%;
         background-color:white ;
-
-
-
     }
 
 
 
     .text-hebergement {
-
-
         margin-left: 5px;
-
-
-
     }
 
 
 
     
     .textafficher {
-
-
         display: none;
-
-
-
     }
 
 
     
     .imgheberge-1 {
-
-
-
         width: 100%;
-
-
     }
 
 
@@ -2295,73 +1675,36 @@ text-decoration-line:underline ;
     
     
     .cardhebergement {
-
-
         width: 90%;
         box-shadow: 0px 0px 7px 6px #e0e0e0;
         border-radius: 20px;
-
-
-
     }
 
 
 
 
     .h2-generalAct {
-
-
-
         margin-left: 20px;
-    
-
-
-
     }
 
 
 
     
     .cardPooulaire {
-
-
-
         width: 100%;
         height: 144px;
         padding-left: 0px;
         display: flex;
-
-
-
-    
     }
 
-
-
-    
-    .imagepro {
-
-
-        margin: 0 !important;
-        width: clamp(120px,4vw,200px) !important;
-        height: 134px ! important;
-
-
-
-    }
 
 
 
     
     .marging-cardP {
-
-
         margin-left: 27px;
         width: 89%;
         margin-bottom: 33px;
-
-
-
     }
 
     
@@ -2370,12 +1713,7 @@ text-decoration-line:underline ;
 
     
     .Padding-cardP {
-
-
         padding-left: 5px;
-
-
-
     }
 
 
