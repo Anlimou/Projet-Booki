@@ -11,153 +11,111 @@ body {
 }
 
 
-
-body {
-
-    margin-left: 40px;
-
-
-
-}
-
-
-
-
 body,header,main,footer { 
-
     overflow-x: hidden;
-
 }
-
-
 
 
 main {
-
     margin-right: 0;
-
 }
-
-
 
 
 .FlexCenter {
-
     display: flex !important;
     justify-content: center;
     align-items: center;
-
 }
 
-.flex-centre { 
 
+.flex-centre { 
     display: flex !important;
     justify-content: center ;
     align-items: center;
-
 }
 
 .flex-around {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
-.flex-between {
 
+.flex-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.flex-between {
 
+.flex-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
+
 
 .flexcolumncentre {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
+
 
 
 
 .flexcolumnaround {
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 
 .flexcolumnbetween {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
+
 .text-gras {
-
     font-weight: bold;
-
 }
 
 
 
 .back-gris {
-
   background-color: #f2f2f2;
-
-
 }
 
-.FlexAround {
 
+.FlexAround {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 }
+
 
 br{
     display: none;
 }
 
-
    
-.Th1  {
-        
+.Th1  {    
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-
-
 }
 
 
 .Th2 {
-     
     padding: 10px 0 0 0;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
-
 }
 
 
@@ -621,12 +579,8 @@ text-decoration-line:underline ;
 
 
 .affichePlus { 
-
-
-    margin-left: 42px;
-
-
-    
+    font-size: 18px;
+    margin-left: 42px;  
 }
 
 /******populaire******/
@@ -634,10 +588,7 @@ text-decoration-line:underline ;
 
 
 .BlocPopulaire {
-
-    padding-right: 20px;
-
-    
+    padding-right: 20px; 
 }
 
 
@@ -793,6 +744,7 @@ text-decoration-line:underline ;
 
 .h2-generalAct {
     margin-top: 60px;
+    margin-bottom: 36px;
 }
 
 
@@ -818,7 +770,7 @@ text-decoration-line:underline ;
 
 
 .rectangleActivité {
-    width: 297px;
+    width: 300px;
     height: 56px;
     margin-top: -5px;
     background-color: #FFFFFF;
@@ -901,13 +853,11 @@ text-decoration-line:underline ;
     }
     
     main {
-    
         margin-left: 30px;
         margin-right: 38px;
     }
 
     footer {
-
         margin-left: 30px;
     }
     
@@ -921,8 +871,7 @@ text-decoration-line:underline ;
 
         
     .FlexblockActivité {
-       
-        margin-left: 8px;
+        margin-left: 5px;
     }
 
     .hombreActivite {
@@ -1005,11 +954,11 @@ text-decoration-line:underline ;
 
 
     .SizeHeger {
-
         width: 92%;
         margin-left: 79px;
         margin-right: 75px;
     }
+
 
     .Block1 {
         margin-bottom: 20px;
@@ -1058,10 +1007,8 @@ text-decoration-line:underline ;
 
 
     .SizePopulaires {
-
         width: 95%;
         height: 300px;
-    
     }
 
    
@@ -1206,14 +1153,14 @@ text-decoration-line:underline ;
     }
     
     .hombreActivite {
-        width: 100%;
+        width: 99%;
         margin-left: 5px; 
     }
 
 
     
     .rectangleActivité {
-        width: 100%;
+        width: 98%;
     }
 
     
@@ -1289,7 +1236,7 @@ text-decoration-line:underline ;
     #nav-links {
        gap: 0;
        padding: 0;
-     }
+    }
    
     .nav-item,
      nav {
@@ -1486,8 +1433,6 @@ text-decoration-line:underline ;
     }
 
 
-
-    
     .Block1 {
         flex-direction: column;
     }
@@ -1504,6 +1449,10 @@ text-decoration-line:underline ;
         width: 100%;
         height: 100%;
         background-color:white ;
+    }
+
+    .texthebergement{
+        font-size: 22px;
     }
 
 
@@ -1525,16 +1474,12 @@ text-decoration-line:underline ;
         width: 100%;
     }
 
-
-
-    
     
     .cardhebergement {
         width: 90%;
         box-shadow: 0px 0px 7px 6px #e0e0e0;
         border-radius: 20px;
     }
-
 
 
 
@@ -1644,35 +1589,16 @@ text-decoration-line:underline ;
 
 
     .marge-footer-mobile {
-
-
-
         margin-top: 0px;
         margin-bottom: 0px;
-
-
-
-
     }
-
-
-
-
 
 
     .h3-footer {
-
-
-
         margin-top: 0px;
         margin-bottom: 0px;
-
-
-
-
     }
 
-    
 
      
 }
