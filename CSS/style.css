@@ -521,7 +521,7 @@ text-decoration-line:underline ;
 
 
 .imgheberge-1 {
-    background-image: url("/images/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("../images/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -530,7 +530,7 @@ text-decoration-line:underline ;
 }
 
 .imgheberge-2 {
-    background-image: url("/images/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("../images/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -540,7 +540,7 @@ text-decoration-line:underline ;
 
 
 .imgheberge-3 {
-    background-image: url("/images/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("../images/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -551,7 +551,7 @@ text-decoration-line:underline ;
 
 
 .imgheberge-4 {
-    background-image: url("/images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("../images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -560,7 +560,7 @@ text-decoration-line:underline ;
 }
 
 .imgheberge-5 {
-    background-image: url("/images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("../images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -569,7 +569,7 @@ text-decoration-line:underline ;
 }
 
 .imgheberge-6 {
-    background-image: url("/images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -695,7 +695,7 @@ text-decoration-line:underline ;
 
 
 .imgPoPu1 {
-    background-image: url("/images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("../images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -706,7 +706,7 @@ text-decoration-line:underline ;
 
 
 .imgPoPu2 {
-    background-image: url("/images/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("../images/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 53%;
@@ -719,7 +719,7 @@ text-decoration-line:underline ;
 
 
 .imgPoPu3 {
-    background-image: url("/images/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("../images/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
     margin-left: 0px;
     background-position: center;
